@@ -1,5 +1,5 @@
-import { FunctionComponent } from 'react';
 import { GetServerSideProps } from 'next';
+import { ArrowRightIcon, FolderIcon } from "@heroicons/react/outline";
 
 import { getDataset } from "../../common/dataset";
 
@@ -11,6 +11,8 @@ import styles from '../../styles/Home.module.css'
 
 // partials
 import { DatasetSummary } from '../../partials/DatasetSummary';
+
+const GITHUB_DATASETS_URL = process.env.NEXT_PUBLIC_GITHUB_DATASETS_URL;
 
 interface SingleDatasetProps{
     dataset: Dataset;
@@ -26,18 +28,21 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
                         <DatasetSummary dataset={dataset} />
                     </div>
                     <div className="col-span-2 bg-blue-50 py-4 px-4 rounded-md">
-                        <h3 className="text-lg font-semibold mb-2">Files</h3>
+                        <h3 className="text-lg font-semibold mb-2 flex flex-row items-center gap-2"><FolderIcon height={20} width={20} /> Files</h3>
                         <div className="flex flex-col gap-1 flex-wrap h-inherit">
                             {dataset.files.map((file, i) => (
-                                <a 
-                                    href=""
+                                <div 
                                     key={i}
-                                >
-                                    <div 
-                                        className="py-2 px-2 bg-white border border-slate-300 font-semibold rounded-md text-indigo-600"
-                                    >{file}</div>
-                                </a>
+                                    className="py-2 px-2 bg-white border border-slate-300 font-semibold rounded-md text-slate-600"
+                                >{file}</div>
                             ))}
+                            <a 
+                                href={`${GITHUB_DATASETS_URL}/${dataset.id}`} 
+                                className="py-4 font-semibold text-indigo-700 flex flex-row items-center"
+                                target={"_blank"}
+                            >
+                                <span className="mr-2">Show Files</span> <ArrowRightIcon height={20} width={20} />
+                            </a>
                         </div>
                     </div>
                 </div>
