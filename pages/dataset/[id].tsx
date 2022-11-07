@@ -38,6 +38,7 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
                             ))}
                             <a 
                                 href={`${GITHUB_DATASETS_URL}/${dataset.id}`} 
+                                rel="noopener noreferrer"
                                 className="py-4 font-semibold text-indigo-700 flex flex-row items-center"
                                 target={"_blank"}
                             >
