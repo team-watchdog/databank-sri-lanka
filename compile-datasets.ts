@@ -89,11 +89,11 @@ const processDatasets = () => {
 function main(){
     const datasets = processDatasets();
     
-    if (!fs.existsSync("output")) {
-        fs.mkdirSync("output");
+    if (!fs.existsSync("json")) {
+        fs.mkdirSync("json");
     }
 
-    fs.writeFileSync('./output/datasets.json', JSON.stringify(datasets, null, 2));
+    fs.writeFileSync('./json/datasets.json', JSON.stringify(datasets, null, 2));
 }
 
 main();

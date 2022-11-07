@@ -8,7 +8,7 @@ export async function getDatasets(searchTerm: string | null, curPage: number) {
     let datasets = [];
 
     try {
-        const datasetJSON = fs.readFileSync('output/datasets.json', 'utf-8');
+        const datasetJSON = fs.readFileSync(`${__dirname}/json/datasets.json`, 'utf-8');
         datasets = JSON.parse(datasetJSON);
     } catch (e) {
         console.log(e);
@@ -30,7 +30,7 @@ export async function getDataset(id: string) {
     let datasets: Dataset[] = [];
 
     try {
-        const datasetJSON = fs.readFileSync('output/datasets.json', 'utf-8');
+        const datasetJSON = fs.readFileSync(`${__dirname}/json/datasets.json`, 'utf-8');
         datasets = JSON.parse(datasetJSON);
     } catch (e) {
         console.log(e);
