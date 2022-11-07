@@ -1,5 +1,6 @@
 import fs from 'fs';
 import Fuse from 'fuse.js';
+import path from 'path';
 
 // types
 import { Dataset } from '../types/dataset';
@@ -8,7 +9,8 @@ export async function getDatasets(searchTerm: string | null, curPage: number) {
     let datasets = [];
 
     try {
-        const datasetJSON = fs.readFileSync(`${__dirname}/json/datasets.json`, 'utf-8');
+        const jsonDirectory = path.join(process.cwd(), 'json');
+        const datasetJSON = fs.readFileSync(`${jsonDirectory}/datasets.json`, 'utf-8');
         datasets = JSON.parse(datasetJSON);
     } catch (e) {
         console.log(e);
@@ -30,7 +32,8 @@ export async function getDataset(id: string) {
     let datasets: Dataset[] = [];
 
     try {
-        const datasetJSON = fs.readFileSync(`${__dirname}/json/datasets.json`, 'utf-8');
+        const jsonDirectory = path.join(process.cwd(), 'json');
+        const datasetJSON = fs.readFileSync(`${jsonDirectory}/datasets.json`, 'utf-8');
         datasets = JSON.parse(datasetJSON);
     } catch (e) {
         console.log(e);
