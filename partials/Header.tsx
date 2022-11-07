@@ -22,12 +22,12 @@ const Header: FunctionComponent = () => {
                 <div className={styles.container}>
                     <div className="flex flex-row justify-between">
                         <div className="w-[200px] h-fit overflow-hidden">
-                            <Link href={""}>
-                            <Image 
-                                src={logo}
-                                alt="Logo" 
-                                layout="responsive"
-                            />
+                            <Link href={"/"}>
+                                <Image 
+                                    src={logo}
+                                    alt="Logo" 
+                                    layout="responsive"
+                                />
                             </Link>
                         </div>
                     </div>

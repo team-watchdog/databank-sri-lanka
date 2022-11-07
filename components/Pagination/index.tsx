@@ -24,6 +24,7 @@ export const Pagination: FunctionComponent<PaginationProps> = (props) => {
                         onPageChange(i);
                         e.preventDefault();
                     }}
+                    key={i}
                 >
                     <span 
                         className={`

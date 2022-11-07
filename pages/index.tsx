@@ -1,7 +1,7 @@
-import { FunctionComponent, useState } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
+import { GetServerSideProps } from 'next';
 
 // styles
 import styles from '../styles/Home.module.css'
@@ -9,52 +9,26 @@ import styles from '../styles/Home.module.css'
 // components
 import { InputText } from '../components/Input/InputText';
 import { Tag } from '../components/Tag';
-import { SummaryLine } from '../components/SummaryLine';
-
-// partials
 import { Pagination } from '../components/Pagination';
 
-interface HomePageQuery{
-  page: string;
-  tags: string[];
-  searchQuery: string;
-}
+// partials
+import { DatasetSummary } from '../partials/DatasetSummary';
+
+// common
+import { getDatasets } from '../common/dataset';
+
+// types
+import { Dataset } from '../types/dataset';
 
 interface HomeProps{
   page: number;
+  count: number;
   tags: string[];
   searchQuery: string;
+  datasets: Dataset[];
 }
 
-const DatasetSummary: FunctionComponent = () => {
-  return (
-    <div className="py-4 px-4 bg-slate-100 rounded-md flex flex-col gap-y-4">
-      <div>
-        <Link href={`/dataset/23`}><h3 className="text-xl font-semibold">Healthcare Dataset</h3></Link>
-        <p className="lg">Healthcare dataset for Sri Lanka</p>
-        <div className="flex flex-row flex-wrap gap-1 py-2">
-          {["Health", "Social"].map((category, i) => (
-            <span key={i} className="py-1 px-2 bg-indigo-600 rounded-xl text-white text-sm">{category}</span>
-          ))}
-        </div>
-      </div>
-      <div>
-        <SummaryLine 
-          label="Created At"
-        >
-          <span>{new Date().toLocaleDateString()}</span>
-        </SummaryLine>
-        <SummaryLine 
-          label="Last Updated"
-        >
-          <span>{new Date().toLocaleDateString()}</span>
-        </SummaryLine>
-        </div>
-    </div>
-  )
-}
-
-export default function Home({ page, tags, searchQuery }: HomeProps) {
+export default function Home({ count, page, tags, searchQuery, datasets }: HomeProps) {
   const { push } = useRouter();
 
   const handlePageChange = (newPage: number) => {
@@ -94,6 +68,7 @@ export default function Home({ page, tags, searchQuery }: HomeProps) {
             }}
           />
         </div>
+        {/*
         <div className="py-4">
           <div className="flex flex-row flex-wrap gap-1">
             {["Education", "Health", "Economy", "Environment", "Social"].map((category, i) => (
@@ -106,16 +81,17 @@ export default function Home({ page, tags, searchQuery }: HomeProps) {
             ))}
           </div>
         </div>
+        */}
         <div className="flex flex-col gap-2 py-4">
-          {[1,2,3,4].map((item, i) => (
-            <DatasetSummary key={i} />
+          {datasets.map((dataset, i) => (
+            <DatasetSummary key={i} dataset={dataset} />
           ))}
         </div>
         <div className="py-2">
           <Pagination 
               page={page}
               limit={10}
-              count={100}
+              count={count}
               onPageChange={handlePageChange}
           />
         </div>
@@ -125,8 +101,20 @@ export default function Home({ page, tags, searchQuery }: HomeProps) {
   )
 }
 
-Home.getInitialProps = async ({ query }: { query: HomePageQuery }) => {
+export const getServerSideProps: GetServerSideProps = async ({ query }) => {
   const { page, tags, searchQuery} = query;
 
-  return { page: page ? parseInt(`${page}`) : 0, tags: tags ?? [], searchQuery: searchQuery ?? "" };
+  const curPage = page ? parseInt(`${page}`) : 0;
+
+  const datasets = await getDatasets(searchQuery as string ?? null, curPage);
+
+  return {
+    props: {
+      page: page ? parseInt(`${page}`) : 0, 
+      tags: tags ?? [], 
+      searchQuery: searchQuery ?? "",
+      count: datasets.length,
+      datasets: datasets.slice(curPage * 10, (curPage + 1) * 10),
+    }
+  }
 }
