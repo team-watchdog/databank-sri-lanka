@@ -1,14 +1,14 @@
 import Head from 'next/head';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
+import { useState, useCallback, useEffect } from 'react';
+import { debounce } from "lodash";
 
 // styles
 import styles from '../styles/Home.module.css'
 
 // components
 import { InputText } from '../components/Input/InputText';
-import { Tag } from '../components/Tag';
 import { Pagination } from '../components/Pagination';
 
 // partials
@@ -31,6 +31,12 @@ interface HomeProps{
 export default function Home({ count, page, tags, searchQuery, datasets }: HomeProps) {
   const { push } = useRouter();
 
+  const [ searchTerm, setSearchTerm ] = useState<string>(searchQuery);
+
+  useEffect(() => {
+    setSearchTerm(searchQuery);
+  }, [ searchQuery ])
+
   const handlePageChange = (newPage: number) => {
     push({
       query: {
@@ -40,6 +46,23 @@ export default function Home({ count, page, tags, searchQuery, datasets }: HomeP
       }
     });
   };
+
+    const updateSearchQuery = async (text: string) => {
+      push({
+        query: {
+          page: 0,
+          tags: [],
+          searchQuery: text,
+        }
+      });
+  }
+
+  const debouncedChangeHandler = useCallback(debounce(updateSearchQuery, 400), []);
+
+  const onSearchTermChange = (value: string) => {
+      setSearchTerm(value);
+      debouncedChangeHandler(value);
+  }
 
   return (
     <>
@@ -56,15 +79,9 @@ export default function Home({ count, page, tags, searchQuery, datasets }: HomeP
         <div className="flex flex-col">
           <InputText 
             placeholder="Start searching for datasets using keywords"
-            value={searchQuery}
+            value={searchTerm}
             onChange={(value) => {
-              push({
-                query: {
-                  page: 0,
-                  tags: [],
-                  searchQuery: value,
-                }
-              });
+              onSearchTermChange(value);
             }}
           />
         </div>
