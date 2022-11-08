@@ -29,7 +29,7 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
             <HeadMeta 
                 title={`Databank 🇱🇰 — ${dataset.title}`}
                 description={dataset.summary}
-                image={`/public/meta.png`}
+                image={`meta.png`}
             />
             <main className="py-4">
                 <div className={styles.container}>
