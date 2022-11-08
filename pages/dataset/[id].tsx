@@ -1,5 +1,7 @@
 import { GetServerSideProps } from 'next';
 import { ArrowRightIcon, FolderIcon } from "@heroicons/react/outline";
+import ReactMarkdown from 'react-markdown'
+import rehypeHighlight from 'rehype-highlight'
 
 import { getDataset } from "../../common/dataset";
 
@@ -45,6 +47,11 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
                                 <span className="mr-2">Show Files</span> <ArrowRightIcon height={20} width={20} />
                             </a>
                         </div>
+                    </div>
+                    <div>
+                        <ReactMarkdown>
+                            {dataset.notes}
+                        </ReactMarkdown>
                     </div>
                 </div>
             </div>
