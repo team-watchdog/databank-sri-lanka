@@ -18,6 +18,9 @@ import { DatasetSummary } from '../partials/DatasetSummary';
 // common
 import { getDatasets } from '../common/dataset';
 
+// public
+import metaPNG from "../public/meta.png";
+
 // types
 import { Dataset } from '../types/dataset';
 
