@@ -23,31 +23,31 @@ The core platform, all datasets, governance, and discussions will take place ins
 
 - Simplicity
 
-- By hosting everything on a simple repository on Github, we eliminate the need for
+    - By hosting everything on a simple repository on Github, we eliminate the need for
 
-- External databases
+        - External databases
 
-- Implementing user management and authentication logic, administration interfaces, dataset management logic, etc.
+        - Implementing user management and authentication logic, administration interfaces, dataset management logic, etc.
 
-- Contributions can happen through Pull Requests. This also comes with the ability to manage revisions, comments, and rejections.
+        - Contributions can happen through Pull Requests. This also comes with the ability to manage revisions, comments, and rejections.
 
-- You can request a dataset by simply raising an issue on Github. For non-technical users and sake of consistency, we’ll create a simple form on the public-facing portal which utilizes the GitHub APIs.
+        - You can request a dataset by simply raising an issue on Github. For non-technical users and sake of consistency, we’ll create a simple form on the public-facing portal which utilizes the GitHub APIs.
 
 - Transparency
 
-- We noticed that the [https://data.gov.lk/](https://data.gov.lk/) portal has the ability for users to suggest and upload datasets. But there’s no transparency as to what happens to these requests or uploaded data waiting for approval. Utilizing Github’s Pull Request and Issues functionality, we can make sure that all of these contributions are visible to the public.
+    - We noticed that the [https://data.gov.lk/](https://data.gov.lk/) portal has the ability for users to suggest and upload datasets. But there’s no transparency as to what happens to these requests or uploaded data waiting for approval. Utilizing Github’s Pull Request and Issues functionality, we can make sure that all of these contributions are visible to the public.
 
-- Git provides us with an audit trail and shows who changed what and when.
+    - Git provides us with an audit trail and shows who changed what and when.
 
 - Resiliency
 
-- If WatchDog seizes to exist as an organization, our community should be able to continue updating the portal without our direct involvement.
+    - If WatchDog seizes to exist as an organization, our community should be able to continue updating the portal without our direct involvement.
 
-- This can happen in two ways:
+    - This can happen in two ways:
 
-1. Transferring ownership of the repository to a different organization (Action needed from the repository owner — Team WatchDog)
+        1. Transferring ownership of the repository to a different organization (Action needed from the repository owner — Team WatchDog)
 
-2. Forking the repository together with the core architecture and all underlying datasets (No action required on behalf of the repository owner)
+        2. Forking the repository together with the core architecture and all underlying datasets (No action required on behalf of the repository owner)
   
 
 # Contributing
