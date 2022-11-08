@@ -14,7 +14,7 @@ Our public institutions are horrible at data management. This is a fact known to
 - Data discovery happens almost by accident. Datasets are poorly organized and search functions are non-existent.
 - Data is not machine-readable.
 - The Government Open Data Portal exists ([https://data.gov.lk/](https://data.gov.lk/)) but hasn’t been updated in years making the portal practically useless.
-- Bad data archiving practices/data disappearing into the void.t
+- Bad data archiving practices/data disappearing into the void.
 
 # Core Platform
 
@@ -58,17 +58,15 @@ The core platform, all datasets, governance, and discussions will take place ins
 
 1. Clone the repository to your computer
 
-```tsx
-
-git  clone <address>
-
+```bash
+git clone <address>
 ```
 
 2. Create a new branch for your dataset. Use the branch naming convention `dataset-new/<dataset identifier>`
 
-```tsx
+```bash
 
-git  checkout -b  new-dataset/<dataset_identifier>
+git checkout -b new-dataset/<dataset_identifier>
 
 ```
 
@@ -94,18 +92,14 @@ git  checkout -b  new-dataset/<dataset_identifier>
 
 8. Commit your code
 
-```tsx
-
-git  commit -am  "Insert commit notes here"
-
+```bash
+git commit -am "Insert commit notes here"
 ```
 
 9. Push your changes to the repository
 
-```tsx
-
-git  push  origin  new-dataset/<dataset_identifier>
-
+```bash
+git push origin  new-dataset/<dataset_identifier>
 ```
 
 10. Go to the branch on the GitHub web interface and create a Pull Request to the `main` branch
