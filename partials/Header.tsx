@@ -40,7 +40,7 @@ const Header: FunctionComponent = () => {
                             <ul className="flex flex-row gap-x-4 flex-wrap">
                                 <li className="font-medium"><Link href="">Contribute Datasets</Link></li>
                                 <li className="font-medium"><Link href="">Suggest Dataset</Link></li>
-                                <li className="font-medium"><Link href="">About Databank</Link></li>
+                                <li className="font-medium"><Link href="https://github.com/team-watchdog/databank-sri-lanka">About Databank</Link></li>
                             </ul>
                         </div>
                         <div>
