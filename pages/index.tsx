@@ -76,7 +76,7 @@ export default function Home({ count, page, tags, searchQuery, datasets }: HomeP
       <HeadMeta 
         title="Databank 🇱🇰 — Powered by WatchDog"
         description="We are building a collaborative platform to create and collect key datasets."
-        image={`meta.png`}
+        image={`/meta.png`}
       />
 
       <main className="py-4">
