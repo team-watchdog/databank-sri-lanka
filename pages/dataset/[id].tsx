@@ -28,6 +28,11 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
                 <div className="grid grid-cols-6 gap-4">
                     <div className="col-span-4">
                         <DatasetSummary dataset={dataset} />
+                        <div>
+                            <ReactMarkdown>
+                                {dataset.notes}
+                            </ReactMarkdown>
+                        </div>
                     </div>
                     <div className="col-span-2 bg-blue-50 py-4 px-4 rounded-md">
                         <h3 className="text-lg font-semibold mb-2 flex flex-row items-center gap-2"><FolderIcon height={20} width={20} /> Files</h3>
@@ -47,11 +52,6 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
                                 <span className="mr-2">Show Files</span> <ArrowRightIcon height={20} width={20} />
                             </a>
                         </div>
-                    </div>
-                    <div>
-                        <ReactMarkdown>
-                            {dataset.notes}
-                        </ReactMarkdown>
                     </div>
                 </div>
             </div>
