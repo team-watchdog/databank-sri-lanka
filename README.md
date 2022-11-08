@@ -114,9 +114,7 @@ git push origin  new-dataset/<dataset_identifier>
 
   
 
-- Files more than 20MB
-
-- Upload files to a third-party service such as S3 and add the link to the `Notes` section of the Metadata file for the dataset.
+- For Files more than 20MB upload files to a third-party service such as S3 and add the link to the `Notes` section of the Metadata file for the dataset.
 
   
 
