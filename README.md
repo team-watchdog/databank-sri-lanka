@@ -80,15 +80,15 @@ git checkout -b new-dataset/<dataset_identifier>
 
 7. Here’s some information you should include inside the `Notes` section:
 
-1. About the dataset
+    1. About the dataset
 
-2. Links to the original source and retrieval dates
+    2. Links to the original source and retrieval dates
 
-3. Collection methodology and tools used
+    3. Collection methodology and tools used
 
-4. Copyright information
+    4. Copyright information
 
-5. Contributor Information (Optional)
+    5. Contributor Information (Optional)
 
 8. Commit your code
 
