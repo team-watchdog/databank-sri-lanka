@@ -1,34 +1,143 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WatchDog Databank Project
+![WatchDog Databank Project Logo](/public/logo.svg)
 
-## Getting Started
+<aside>
 
-First, run the development server:
+🗳️ We are building a collaborative platform to create and collect key datasets.
+
+</aside>
+
+Our public institutions are horrible at data management. This is a fact known to most researchers, students, and journalists. If you browse through government websites for long enough, you can find a plethora of data. But the problem lies with how it is organized. Here are a set of problems we at WatchDog have to constantly deal with:
+
+
+- Data is stuck inside poorly formatted PDF or PPT files.
+- Data discovery happens almost by accident. Datasets are poorly organized and search functions are non-existent.
+- Data is not machine-readable.
+- The Government Open Data Portal exists ([https://data.gov.lk/](https://data.gov.lk/)) but hasn’t been updated in years making the portal practically useless.
+- Bad data archiving practices/data disappearing into the void.
+
+# Core Platform
+
+## Everything happens on Github
+The core platform, all datasets, governance, and discussions will take place inside a single repository on Github. Here’s a breakdown of our thinking:
+
+- Simplicity
+
+    - By hosting everything on a simple repository on Github, we eliminate the need for
+
+        - External databases
+
+        - Implementing user management and authentication logic, administration interfaces, dataset management logic, etc.
+
+        - Contributions can happen through Pull Requests. This also comes with the ability to manage revisions, comments, and rejections.
+
+        - You can request a dataset by simply raising an issue on Github. For non-technical users and sake of consistency, we’ll create a simple form on the public-facing portal which utilizes the GitHub APIs.
+
+- Transparency
+
+    - We noticed that the [https://data.gov.lk/](https://data.gov.lk/) portal has the ability for users to suggest and upload datasets. But there’s no transparency as to what happens to these requests or uploaded data waiting for approval. Utilizing Github’s Pull Request and Issues functionality, we can make sure that all of these contributions are visible to the public.
+
+    - Git provides us with an audit trail and shows who changed what and when.
+
+- Resiliency
+
+    - If WatchDog seizes to exist as an organization, our community should be able to continue updating the portal without our direct involvement.
+
+    - This can happen in two ways:
+
+        1. Transferring ownership of the repository to a different organization (Action needed from the repository owner — Team WatchDog)
+
+        2. Forking the repository together with the core architecture and all underlying datasets (No action required on behalf of the repository owner)
+  
+
+# Contributing
+
+## How can I add a dataset?
+
+  
+
+1. Clone the repository to your computer
 
 ```bash
-npm run dev
-# or
-yarn dev
+git clone <address>
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Create a new branch for your dataset. Use the branch naming convention `dataset-new/<dataset identifier>`
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```bash
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+git checkout -b new-dataset/<dataset_identifier>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
 
-## Learn More
+3. Create a new directory for your dataset inside `datasets/`
 
-To learn more about Next.js, take a look at the following resources:
+4. Add your files to the folder you created.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Use the [Meta Generator Tool](https://databank.watchdog.team/metadata-generator) to generate the metadata file for your dataset.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+6. Copy the generate JSON structure and add it to a file named `meta.json` inside the directory you created.
 
-## Deploy on Vercel
+7. Here’s some information you should include inside the `Notes` section:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. About the dataset
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+2. Links to the original source and retrieval dates
+
+3. Collection methodology and tools used
+
+4. Copyright information
+
+5. Contributor Information (Optional)
+
+8. Commit your code
+
+```bash
+git commit -am "Insert commit notes here"
+```
+
+9. Push your changes to the repository
+
+```bash
+git push origin  new-dataset/<dataset_identifier>
+```
+
+10. Go to the branch on the GitHub web interface and create a Pull Request to the `main` branch
+
+11. Members from our core team will review your Pull Request and let you know if there are any necessary changes.
+
+12. When our core team approves your changes, the data portal will get updated with your dataset. Congratulations and thank you for your contribution! 🥳
+
+  
+
+## Caveats
+
+  
+
+- Files more than 20MB
+
+- Upload files to a third-party service such as S3 and add the link to the `Notes` section of the Metadata file for the dataset.
+
+  
+
+# Running the project locally
+
+  
+
+### Prerequisites:
+
+  
+
+- NodeJS
+
+  
+
+### Steps
+
+  
+
+1. Run `yarn install`
+
+2. Run `yarn dev`
+
+3. Visit `http://localhost:3000`
