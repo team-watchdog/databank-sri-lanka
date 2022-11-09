@@ -1,19 +1,19 @@
-import { useState } from "react";
-import "@uiw/react-md-editor/markdown-editor.css";
 import "@uiw/react-markdown-preview/markdown.css";
-import dynamic from "next/dynamic";
+import "@uiw/react-md-editor/markdown-editor.css";
 import { useFormik } from 'formik';
+import dynamic from "next/dynamic";
+import { useState } from "react";
 
 // components
-import { PageHeader } from '../components/PageHeader';
-import { FormItem } from '../components/Form';
 import { FileUpload } from '../components/FileUpload';
-import { TagInput } from '../components/TagInput';
+import { FormItem } from '../components/Form';
 import { InputText } from '../components/Input';
+import { PageHeader } from '../components/PageHeader';
+import { TagInput } from '../components/TagInput';
 
 // styles
-import styles from '../styles/Home.module.css';
 import Button from "../components/Button";
+import styles from '../styles/Home.module.css';
 
 const MDEditor = dynamic(
     () => import("@uiw/react-md-editor"),
@@ -121,7 +121,7 @@ export default function MetadataGenerator() {
                     </FormItem>
                     <FormItem label={"Output JSON"}>
                         <div className="py-4 px-4 bg-blue-50 rounded-md w-full">
-                            <code>{JSON.stringify(values)}</code>
+                            <code className="whitespace-pre-wrap">{JSON.stringify(values, null, 2)}</code>
                             <Button type="default" onMouseDown={async () => {
                                 try {
                                     await navigator.clipboard.writeText(JSON.stringify(values));
