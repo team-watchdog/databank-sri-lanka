@@ -1,5 +1,5 @@
-import { GetServerSideProps } from 'next';
 import { ArrowRightIcon, FolderIcon } from "@heroicons/react/outline";
+import { GetServerSideProps } from 'next';
 import ReactMarkdown from 'react-markdown';
 
 import { getDataset } from "../../common/dataset";
@@ -8,7 +8,7 @@ import { getDataset } from "../../common/dataset";
 import { Dataset } from '../../types/dataset';
 
 // styles
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css';
 
 // partials
 import { DatasetSummary } from '../../partials/DatasetSummary';
@@ -36,7 +36,7 @@ export default function SingleDataset({ dataset }: SingleDatasetProps) {
                     <div className="grid grid-cols-6 gap-4">
                         <div className="col-span-4">
                             <DatasetSummary dataset={dataset} />
-                            <div>
+                            <div className="prose mt-5">
                                 <ReactMarkdown>
                                     {dataset.notes}
                                 </ReactMarkdown>
