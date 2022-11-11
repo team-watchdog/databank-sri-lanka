@@ -1,0 +1,38 @@
+Plant Name,Station / Complex,Installed capacity (MW),Source
+Unit 1,Norocholai,300,CEB Thermal
+Unit 2,Norocholai,300,CEB Thermal
+Unit 3,Norocholai,300,CEB Thermal
+Sapugaskanda - A,Sapugaskanda,80,CEB Thermal
+Sapugaskanda - B,Sapugaskanda,80,CEB Thermal
+Kelanitissa CCPP – GT,Kelanitissa,110,CEB Thermal
+Kelanitissa CCPP – ST,Kelanitissa,55,CEB Thermal
+Kelanitissa GT - 07,Kelanitissa,115,CEB Thermal
+Kelanitissa Frame V GTT,Kelanitissa,80,CEB Thermal
+Uthuru Janani,Other,26.7,CEB Thermal
+Barge Mounted,Other,62.4,CEB Thermal
+Thulhiriya (Emergency),Other,10,CEB Thermal
+Kolonnawa (Emergency),Other,20,CEB Thermal
+Mathugama (Emergency),Other,20,CEB Thermal
+Canyon,Laxapana,60,CEB Renewables
+Wimalasurendra,Laxapana,50,CEB Renewables
+Old Laxapana Stage I,Laxapana,28.8,CEB Renewables
+Old Laxapana Stage II,Laxapana,25,CEB Renewables
+New Laxapana,Laxapana,100,CEB Renewables
+Polpitiya,Laxapana,90,CEB Renewables
+Upper Kotmale,Mahaweli,150,CEB Renewables
+Victoria,Mahaweli,210,CEB Renewables
+Kotmale,Mahaweli,201,CEB Renewables
+Randenigala,Mahaweli,122,CEB Renewables
+Ukuwela,Mahaweli,38.6,CEB Renewables
+Bowatenna,Mahaweli,40,CEB Renewables
+Rantambe,Mahaweli,49,CEB Renewables
+Nilambe,Mahaweli,3.22,CEB Renewables
+Samanalawewa,Samanalaweva,120,CEB Renewables
+Kukule-Ganga,Samanalaweva,75,CEB Renewables
+Small hydro (Udawalawa and Inginiyagala),Samanalaweva,17.25,CEB Renewables
+Mannar Wind Park,Mannar Wind Park,103.5,CEB Renewables
+Sojitz Kelanitissa (Pvt.) Ltd,,163,Independent
+ACE Power Embilipitiya Ltd*,,100,Independent
+ACE Power Matara Ltd*,,24.8,Independent
+Asia Power Ltd*,,51,Independent
+West Coast (Pvt)Ltd.,,300,Independent
