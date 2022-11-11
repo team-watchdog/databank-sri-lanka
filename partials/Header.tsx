@@ -38,9 +38,9 @@ const Header: FunctionComponent = () => {
                     <div className="flex flex-row justify-between items-center">
                         <div className="flex flex-row">
                             <ul className="flex flex-row gap-x-4 flex-wrap">
-                                <li className="font-medium"><Link href="https://github.com/team-watchdog/databank-sri-lanka#how-can-i-add-a-dataset">Contribute Datasets</Link></li>
-                                <li className="font-medium"><Link href="https://github.com/team-watchdog/databank-sri-lanka#how-do-i-request-a-dataset">Request Dataset</Link></li>
-                                <li className="font-medium"><Link href="https://github.com/team-watchdog/databank-sri-lanka">About Databank</Link></li>
+                                <li className="font-medium hover:text-indigo-600"><Link href="https://github.com/team-watchdog/databank-sri-lanka#how-can-i-add-a-dataset">Contribute Datasets</Link></li>
+                                <li className="font-medium hover:text-indigo-600"><Link href="https://github.com/team-watchdog/databank-sri-lanka#how-do-i-request-a-dataset">Request Dataset</Link></li>
+                                <li className="font-medium hover:text-indigo-600"><Link href="https://github.com/team-watchdog/databank-sri-lanka">About Databank</Link></li>
                             </ul>
                         </div>
                         <div>
