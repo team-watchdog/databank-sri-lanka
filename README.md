@@ -108,7 +108,18 @@ git push origin  new-dataset/<dataset_identifier>
 
 12. When our core team approves your changes, the data portal will get updated with your dataset. Congratulations and thank you for your contribution! 🥳
 
-  
+## How do I request a dataset?
+
+1. Create a GitHub account (github.com) if you don’t already have one.
+2. Navigate to the Issues section of the `databank-sri-lanka` repository: https://github.com/team-watchdog/databank-sri-lanka/issues
+3. Click on the “New Issue” button
+4. Provide as much information as possible. Including but not limited to:
+    1. Why are you requesting this dataset?
+    2. Links to original data
+    3. How do you want the data to be formatted?
+    4. Include any related files as attachments
+5. Submit request by clicking on “Submit new issue”
+
 
 ## Caveats
 
