@@ -79,17 +79,17 @@ Note: Some records in the `protests.geojson` dataset will have an asterisks in t
 
 Collected and sythesized by [Watchdog](https://watchdog.team)
 
-- [Yudhanjaya Wijeratne](http://twitter.com/@yudhanjaya)
-- [Minoli Wijetunga](http://twitter.com/@Elliiipses)
-- [Aisha Nazim](http://twitter.com/@aishnazim)
-- [Ishan Marikar](http://twitter.com/@ishanmarikar)
-- [Mohamed Fairooz](http://twitter.com/@Fairoozmbm)
-- [Amalini De Sayrah](http://twitter.com/@amaliniii)
+- [Yudhanjaya Wijeratne](http://twitter.com/yudhanjaya)
+- [Minoli Wijetunga](http://twitter.com/Elliiipses)
+- [Aisha Nazim](http://twitter.com/aishnazim)
+- [Ishan Marikar](http://twitter.com/ishanmarikar)
+- [Mohamed Fairooz](http://twitter.com/Fairoozmbm)
+- [Amalini De Sayrah](http://twitter.com/amaliniii)
 
   and everyone who took the time to tag or send us footage.
 
 ## License
 
-This is a public project. Feel free to use for journalism / discussion / research. Kindly credit and backlink to watchdog.team, that'll be appreciated. If you’re using someone’s photos or video, credit them (either by embedding their stuff directly in your website or by listing manually).
+This is a public project. Feel free to use for journalism / discussion / research. Kindly credit and backlink to watchdog.team, that'll be appreciated. If you’re using someone’s photos or video, credit them (either byembedding their stuff directly in your website or by listing manually).
 
 This project is licensed under the Apache License 2.0 - see https://tldrlegal.com/license/apache-license-2.0-(apache-2.0) for more information.
