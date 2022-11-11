@@ -81,10 +81,10 @@ Collected and sythesized by [Watchdog](https://watchdog.team)
 
 - [Yudhanjaya Wijeratne](http://twitter.com/@yudhanjaya)
 - [Minoli Wijetunga](http://twitter.com/@Elliiipses)
-- [Aisha Nazim](http://twitter/@aishnazim)
-- [Ishan Marikar](http://twitter/@ishanmarikar)
-- [Mohamed Fairooz](http://twitter/@Fairoozmbm)
-- [Amalini De Sayrah](http://twitter/@amaliniii)
+- [Aisha Nazim](http://twitter.com/@aishnazim)
+- [Ishan Marikar](http://twitter.com/@ishanmarikar)
+- [Mohamed Fairooz](http://twitter.com/@Fairoozmbm)
+- [Amalini De Sayrah](http://twitter.com/@amaliniii)
 
   and everyone who took the time to tag or send us footage.
 
