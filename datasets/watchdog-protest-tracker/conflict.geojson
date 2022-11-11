@@ -1,0 +1,895 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "link",
+    "properties": {
+      "href": "http://spatialreference.org/ref/epsg/26912/esriwkt/",
+      "type": "esriwkt"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "1",
+        "links": [
+          "https://twitter.com/exfrotezter/status/1523589141958520832?t=AwmgryYwDktV03z8GXmmuQ&s=09"
+        ],
+        "location": "GotaGoGama, Kandy",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["agitation settlements"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.63526876757908, 7.293060209413756, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "2",
+        "links": [
+          "https://twitter.com/NewsWireLK/status/1523572493138599937?t=sX19WiaUac_HSGIeiqb4FA&s=19",
+          "https://twitter.com/crewforshoots/status/1523581079302868992?t=C86KeLkGGY9k_ur25mO0zg&s=09",
+          "https://www.facebook.com/100004311391973/posts/2440591026094587/?d=n",
+          "https://twitter.com/nuzster/status/1523562364557135873?t=RnmQJxV3o0o1v7-N-PjdbQ&s=19",
+          "https://www.facebook.com/watch/live/?ref=watch_permalink&v=393377932694902"
+        ],
+        "location": "GotaGoGama, Galle Face",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["agitation settlements"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.84391544977267, 6.931211108750346, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "3",
+        "links": [
+          "https://twitter.com/sasith_bandara/status/1523645926099030017?t=LSkZTkNiLO82G6F62NG63Q&s=09",
+          "https://twitter.com/NewsWireLK/status/1523654825887485952"
+        ],
+        "location": "Sanath Nishantha's Residence in Arachchikattuwa*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.8356554454148, 7.667708056924921, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "4",
+        "links": ["https://twitter.com/ShivAroor/status/1523709855596306432"],
+        "location": "Mahinda Rajapaksa's Residence in Kurunegala",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.36612870289913, 7.4968224702734005, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "5",
+        "links": ["https://twitter.com/viralvdoz/status/1523775465022181377"],
+        "location": "Mahinda Rajapaksa's Ancestral Home in Medamulana, Walawwa",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": { "type": "Point", "coordinates": [80.7690184, 6.1790679, 0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "6",
+        "links": ["https://twitter.com/NewsWireLK/status/1524007826720403456"],
+        "location": "Statue of D.A Rajapaksa, Tangalle",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["memorial"],
+        "accurate": true
+      },
+      "geometry": { "type": "Point", "coordinates": [80.79404, 6.0253568, 0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "8",
+        "links": ["https://twitter.com/NewsWireLK/status/1523989035294679043"],
+        "location": "Basil Rajapaksa's Mansion in Malwana",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.02282175183878, 6.931794180820624, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "10",
+        "links": [
+          "https://twitter.com/Kavinthans/status/1523643095014801408",
+          "https://twitter.com/NewsWireLK/status/1523661572438040836?s=20&t=OBVuFPEZADn1bFD67O6QPA"
+        ],
+        "location": "Johnston Fernando's Residence in Kurunegala",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.32006970332162, 7.535069831513142, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "11",
+        "links": ["https://twitter.com/Kavinthans/status/1523637946812796928"],
+        "location": "SLPP Office in Kurunegala",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["office"],
+        "accurate": true
+      },
+      "geometry": { "type": "Point", "coordinates": [80.3525918, 7.485542, 0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "12",
+        "links": [
+          "https://twitter.com/JDSLanka/status/1523668467278237703",
+          "https://youtu.be/AH0YTa22fJI?t=756"
+        ],
+        "location": "Prasanna Ranatunga's Residence in Udugampola",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.94523414835459, 7.161630669025919, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "14",
+        "links": [
+          "https://twitter.com/Kavinthans/status/1523666997505970177",
+          "https://youtu.be/AH0YTa22fJI?t=886"
+        ],
+        "location": "Dr.Ramesh Pathirana's Residence in Galle",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.20494366405178, 6.067025020507818, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "15",
+        "links": [
+          "https://twitter.com/shashank_ssj/status/1523730187648569344",
+          "https://twitter.com/Kavinthans/status/1523725749387415552"
+        ],
+        "location": "Keheliya Rambukwella's Residence in Kandy*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.63194495078102, 7.294561407251591, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "16",
+        "links": ["https://www.youtube.com/watch?v=lVcr_ABTJJw"],
+        "location": "Vidura Wickramanayake's Residence in Horana*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.06540115256416, 6.723085152327323, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "17",
+        "links": [
+          "https://twitter.com/NewsWireLK/status/1523954521466044416",
+          "https://twitter.com/PrabodaYatagama/status/1523718895697227777"
+        ],
+        "location": "Wimal Weerawansa's Residence in Hokandara*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.9706021498637, 6.874343605297547, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "19",
+        "links": [
+          "https://twitter.com/LankadeepaNews/status/1523728626524454912?s=20&t=RuGBLtMAf5dhKuKLPgDelA",
+          "https://www.newswire.lk/2022/05/09/houses-of-slpp-mps-rohitha-keheliya-attacked/",
+          "https://youtu.be/AH0YTa22fJI?t=498"
+        ],
+        "location": "Rohitha Abeygunawardena's Residence",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "notes": "02 offices, 02 houses , 01 car and 01 motorcycle were set on fire.",
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.99450483711382, 6.518708545828519, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "20",
+        "links": [
+          "https://twitter.com/Dailymirror_SL/status/1523690079159345153?s=20&t=OBVuFPEZADn1bFD67O6QPA]",
+          "https://youtu.be/AH0YTa22fJI?t=577"
+        ],
+        "location": "Johnston Fernando's Residence in Kurunegala",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.31998387258301, 7.534878380050448, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "21",
+        "links": [
+          "https://twitter.com/anp66/status/1524029261002285058?s=20&t=OBVuFPEZADn1bFD67O6QPA"
+        ],
+        "location": "Johnston Fernando's Office in Lillie Street*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85486132872938, 6.922102560887581, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "22",
+        "links": [
+          "https://twitter.com/Dailymirror_SL/status/1523985077318815744"
+        ],
+        "location": "Nimal Lanza's Residence in Negombo*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85676372209919, 7.233449473798384, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "23",
+        "links": [
+          "https://twitter.com/NewsWireLK/status/1523710058600697856",
+          "https://twitter.com/Nawfan1234/status/1523702672188051458",
+          "https://youtu.be/AH0YTa22fJI?t=670"
+        ],
+        "location": "Bandula Gunawardena's Residence in Nugegoda",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "notes": "Two houses and two vehicles were damaged",
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.89381990642327, 6.864040175353115, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "25",
+        "links": [
+          "https://twitter.com/NewsWireLK/status/1523710058600697856",
+          "https://youtu.be/AH0YTa22fJI?t=1254"
+        ],
+        "location": "Channa Jayasumana's Residence in Anuradhapura",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.41699328325849, 8.329020663545647, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "26",
+        "links": [
+          "https://twitter.com/Dailymirror_SL/status/1523964603557851138"
+        ],
+        "location": "Gamini Lokuge's Residence in Piliyandala*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.92344162687624, 6.803273863645617, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "27",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "Samanpriya Herath's Residence in Horombawa*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.1686836572993, 7.457870742378772, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "28",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "Samanpriya Herath's Office in Kuliyapitiya*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.04450916888948, 7.472285191710778, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "30",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "Ashok Priyantha's Office in Nattandiya*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85768797735466, 7.411026847072022, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "31",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "Ashok Priyantha's Residence in Nattandiya*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.8568940434495, 7.4112183528280955, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "32",
+        "links": [
+          "https://twitter.com/GodahewaNalaka/status/1524236261749362691"
+        ],
+        "location": "Nalaka Godahewa's Residence in Yagoda",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.9688688475527, 7.070841420631306, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "33",
+        "links": [],
+        "location": "Prasanna Ranaweera's Residence in Enderamulla*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.91991093108471, 6.996303828206602, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "37",
+        "links": [
+          "https://twitter.com/NewsWireLK/status/1523710058600697856",
+          "https://twitter.com/MawNews/status/1523680494134898689"
+        ],
+        "location": "Kanaka Herath's Residence",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.34188670502876, 7.2466627295311445, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "38",
+        "links": ["https://twitter.com/NewsWireLK/status/1523710058600697856"],
+        "location": "Pavithra Wanniarachchi's Residence in Pelmadulla",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.52487628673818, 6.632851451696646, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "39",
+        "links": ["https://twitter.com/Kavinthans/status/1523678304410439682"],
+        "location": "Ali Sabri Raheem's Residence",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.83232662138782, 8.036635545450649, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "41",
+        "links": ["https://twitter.com/Kavinthans/status/1523672982702673920"],
+        "location": "Nimal Lanza's Avenra Garden Hotel",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["business"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85541616596771, 7.217606311213099, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "55",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=837"],
+        "location": "Sahan Pradeep's Residence in Kadawatha",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.95367593951588, 7.012171539606018, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "56",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1117"],
+        "location": "Siripala Gamlath's Residence and Office in Polonnaruwa",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.9245101797184, 7.999589257138866, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "57",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1142"],
+        "location": "Kokila Gunawardena's Residence in Meerigama",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.12783973903463, 7.305352199752544, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "58",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1214"],
+        "location": "Tissa Kutti Arachchi's Residence in Bandarawela",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.9915517440451, 6.830575238296944, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "59",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1294"],
+        "location": "Chinthaka Mayadunne's Residence in Puttlam",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.84124622418061, 8.019794180031617, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "61",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1344"],
+        "location": "Anuradha Jayaratne's Office in Gampola",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.60601344126742, 7.187064107037718, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "64",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "D. B. Herath's Residence in Wariyapola",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.26760336872678, 7.634230550225494, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "73",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "Mayor of Gampaha's Residence in Yakkala*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.0339251079437, 7.086513981871511, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "74",
+        "links": [
+          "https://www.newsfirst.lk/2022/05/10/heres-a-list-of-slpp-politico-property-destroyed-so-far/"
+        ],
+        "location": "Mayor of Dambulla's Residence in Thithwelgolla*",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": false
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.38130781294569, 7.654483128765047, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "81",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=197"],
+        "location": "MP Amarakeerthi Athukorala Killed in Nittambuwa",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["death"],
+        "notes": "Total of 3 people died in this violence",
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.0963867862657, 7.143139539992865, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "82",
+        "links": ["https://youtu.be/PjkMBWRqoZk?t=5"],
+        "location": "Attack on Temple trees",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "notes": "Fire broke out in back gate of Temple tress, Vehicle burned down",
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.84877317732322, 6.914639936760132, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "83",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1061"],
+        "location": "Ranjith Siyambalapitiya's Residence",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.23282291838665, 7.066350543952609, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "84",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1075"],
+        "location": "Carlton House, Weeraketiya",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [80.7951562082664, 6.026902851596145, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "85",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1366"],
+        "location": "Gunapala Ratnasekara's Residence / Office",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "damage": ["residence"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.9895758867717, 7.6492895259820886, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "86",
+        "links": ["https://youtu.be/AH0YTa22fJI?t=1524"],
+        "location": "Hotel Avenra, Negombo",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85544088369389, 7.217903831265612, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "87",
+        "links": [
+          "https://www.sundaytimes.lk/220515/news/lamborghini-ferrari-and-hummers-burnt-to-cinders-482775.html"
+        ],
+        "location": "Hotel Grandeeza, Negombo",
+        "date": "2022-05-09T00:00:00.000+00:00",
+        "epoch": 1652054400,
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85874978184617, 7.185808431390272, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "50",
+        "links": [
+          "https://twitter.com/sasith_bandara/status/1523736987563618304"
+        ],
+        "location": "Nimal Lanza's The Grandeeza Hotel in Negombo",
+        "date": "2022-05-10T00:00:00.000+00:00",
+        "epoch": 1652140800,
+        "damage": ["business"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.85893570115842, 7.185625172140196, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "76",
+        "links": [
+          "https://twitter.com/Vidiyallk/status/1524039085173592065?s=20&t=G9tyPfhIps5VLdIY-jEo9Q",
+          "https://youtu.be/AV14YTvmpy8?t=2162"
+        ],
+        "location": "MP Nazeer Ahamed's Office & Garments",
+        "date": "2022-05-10T00:00:00.000+00:00",
+        "epoch": 1652140800,
+        "damage": ["office", "business"],
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.60668525832999, 7.7747179531431305, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "77",
+        "links": [
+          "https://www.newscutter.lk/sri-lanka-news/moratuwa-municipal-council-vehicles-were-torched-11052022-35455/"
+        ],
+        "location": "Moratuwa Mnucipal Council",
+        "date": "2022-05-10T00:00:00.000+00:00",
+        "epoch": 1652140800,
+        "damage": ["office"],
+        "notes": "Vehicles belonging to the Municipal Council torched. The buildings belonging to the council were also severely damaged.",
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.88390380827035, 6.778120299039842, 0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "79",
+        "links": [
+          "https://m.facebook.com/story.php?story_fbid=3341222286096305&id=100006256994517"
+        ],
+        "location": "Former Governor Hizbullah's Residence",
+        "date": "2022-05-11T00:00:00.000+00:00",
+        "epoch": 1652227200,
+        "damage": ["residence"],
+        "notes": "Stone thrown; Minor damages",
+        "accurate": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [81.72262981360332, 7.680355884212683, 0]
+      }
+    }
+  ]
+}
